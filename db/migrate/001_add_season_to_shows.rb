@@ -1,4 +1,4 @@
-def AddSeasontoShows < ActiveRecord::Migration[4.2]
+def AddSeasontoShows < ActiveRecord::Migration[5.2]
   def change
     create :Show do |t|
       t.string :season 
