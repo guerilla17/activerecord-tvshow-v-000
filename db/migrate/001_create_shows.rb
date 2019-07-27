@@ -1,4 +1,4 @@
-def CreateShows < ActiveRecord::Migration [4.2]
+def CreateShows < ActiveRecord::Migration [5.2]
   def change
     create :show do |t|
       t.string :name  
